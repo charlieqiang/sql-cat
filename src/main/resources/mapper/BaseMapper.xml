@@ -23,7 +23,7 @@
         select
         <include refid="BaseColumnList"/>
         from base_info
-        where base_id = #{baseId} and
-        base_code = #{baseCode}
+        where base_code = #{baseCode} and
+        base_id = #{baseId}
     </select>
 </mapper>
